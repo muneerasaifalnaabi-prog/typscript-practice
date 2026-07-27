@@ -12,3 +12,7 @@ function describe(name, score, cohort = "Code Champs", note) {
 console.log(describe("Ishaq", 99));
 console.log(describe("Ishaq", 99, "Code Champs", "late Submit"));
 // export {};
+
+const student={name:"Ikhlas",score:99};
+student.socre=95;
+console.log(student);
